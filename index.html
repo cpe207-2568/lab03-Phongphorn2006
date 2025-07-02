@@ -3,7 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <div class="d-flex justify-content-center gap-5 p-4 fw-bold">
+      <a href="index.html" class="nav-link-custom">Home</a>
+      <a href="experience.html" class="nav-link-custom">Experience</a>
+      <a href="gallery.html" class="nav-link-custom">Gallery</a>
+      <a href="contact.html" class="nav-link-custom">Contact</a>
+    </div>
+
+    <div
+      class="card mb-5 shadow"
+      style="max-width: 800px; margin: auto; border-radius: 2rem"
+    >
+      <div class="row g-0">
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <img
+            src="images/awsome.png"
+            class="img-fluid"
+            style="max-width: 200px; max-height: 200px; padding: 10px"
+            alt="personal image"
+          />
+        </div>
+        <div class="col-md-8">
+          <div
+            class="card-body"
+            style="padding-left: 0rem; padding-right: 2rem"
+          >
+            <h5 class="card-title fw-bold">Phongphorn Chaoyamka</h5>
+            <p
+              class="card-text"
+              style="margin-bottom: 20px; text-align: justify; font-weight: 200"
+            >
+              I am a student at the Faculty of Engineering, Chiang Mai
+              University, studying in the Computer Engineering program. My
+              hobbies are playing guitar, running, and playing games.
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary"
+                >I’m not lazy. I’m just naturally a very relaxed person.</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center fw-bold" style="font-size: xx-large">Skill</p>
+    <div class="card-group shadow mb-5">
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="images/Coding.png"
+          alt="Card image cap"
+          style="height: 300px; object-fit: cover; width: 100%"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Programing</h5>
+          <p class="card-text">
+            I have experience in developing a simple game using C++ , which is a
+            library for creatng.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="images\SoftSkill.jpg"
+          alt="Card image cap"
+          style="height: 300px; object-fit: cover; width: 100%"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Soft Skill</h5>
+          <p class="card-text">
+            Working and communicating with others is an important skill. I have
+            also been a leader in a group project, which has helped me to
+            develop my leadership skills.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="images\designThinking.png"
+          alt="Card image cap"
+          style="height: 300px; object-fit: cover; width: 100%"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Design Thinking</h5>
+          <p class="card-text">
+            Design Thinking is a process that helps to solve problems in a
+            creative way. I have experience in using Design Thinking to develop
+            a sustainable innovation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-4">
+      <p class="text-muted">©2024 Phongphorn Chaoyamka</p>
+    </footer>
+  </body>
 </html>
